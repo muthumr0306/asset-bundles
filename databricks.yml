@@ -1,0 +1,12 @@
+bundle:
+  name: assetbundles
+
+include:
+  - resources/jobs/*.yml
+
+targets:
+  dev:
+    mode: production
+    workspace:
+      host: dbc-f67c8956-f4ee.cloud.databricks.com
+      root_path: /Workspace/ASSET_BUNDLES
