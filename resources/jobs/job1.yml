@@ -1,7 +1,7 @@
 resources:
   jobs:
-    temp_job1:
-      name: temp_job1
+    job1:
+      name: job1
       trigger:
         pause_status: UNPAUSED
         periodic:
